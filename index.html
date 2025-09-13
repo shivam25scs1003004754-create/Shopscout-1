@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Product Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Local Product Finder</h1>
+        <p>Find the best local stores and products near you.</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for a product or brand...">
+            <button id="search-button">Search</button>
+        </div>
+
+        <section class="results-container" id="results-container">
+            </section>
+    </main>
+
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-header" id="chatbot-header">
+            <h3>ShopBot</h3>
+            <span class="close-btn material-icons">close</span>
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <div class="chat-message bot">
+                Hi there! I'm ShopBot. How can I help you find what you're looking for?
+            </div>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" id="chat-input" placeholder="Type a message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <button class="chatbot-toggle" id="chatbot-toggle">
+        <span class="material-icons">chat</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
